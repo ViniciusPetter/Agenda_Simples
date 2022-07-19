@@ -1,0 +1,116 @@
+body{
+	text-align:center;
+	/*background: url(../UniDriver/imagens/imagemfundo.jpg)center center no-repeat fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+	background-image: linear-gradient(rgb(76, 32, 177),rgb(175, 228, 161));
+}
+html{
+	font-family: 'Oswald', sans-serif;
+	height: auto;
+	width: auto;
+}
+#autor{
+	text-align: left;
+	margin: 5px;
+	width: auto;
+	height: auto;
+}
+#confirmar,#info,#alugar{
+	background-color: #32CD32;
+	color: white;
+}
+#textoCompletar{
+	align-self: center;
+	font-size: 30px;
+}
+#tituloCabecalho{
+	margin: 0px;
+}
+#piechart{
+	float: left;
+	width: 500px;
+	height: 500px;
+	margin: 15px;
+}
+table{
+	margin: 15px;
+}
+@media screen and (min-width: 200px) {
+	#tituloCabecalho{
+		font-size: 150px;
+	}
+	#confirmar{
+		height: 50px;
+		width: 400px;
+		margin-top: 150px;
+		border-radius: 15px;
+		font-size: 40px;
+	}
+	#autor{
+		font-size:30px;
+	}
+	#info{
+		height: 75px;
+		width: 200px;
+		font-size: 60px;
+		border-radius: 15px;
+	}
+	input{
+		height: 30px;
+		width: 300px;
+		font-size: 25px;
+		border-radius: 5px;
+	}
+	#textoCompletar{
+		font-size: 40px;
+	}
+	#opcao{
+		height: auto;
+		width: auto;
+		font-size: 10px;
+	}
+	#aparelhos{
+		height: 75px;
+		width: auto;
+		font-size: 50px;
+		margin-top: 10px;
+	}
+	#infoPagina{
+		font-size: 50px;
+	}
+	form{
+		margin: 15px;
+	}
+	table,th,td{
+		border: #000;
+		border-style: outset;
+		text-align: center;
+	}
+	table{
+		width: 90%;
+		font-size: 20px;
+	}
+	#txtInfo{
+		font-size: 35px;
+	}
+	#alugar{
+		height: 50px;
+		width: 400px;
+		margin-top: 150px;
+		border-radius: 15px;
+	}
+	#infoCarro{
+		font-size: 20px;
+	}
+}
+a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+	color: #000;
+}
+@font-face{
+	font-family: 'agendex';
+	src: url(fontes/MavenPro-VariableFont_wght.ttf);
+}
